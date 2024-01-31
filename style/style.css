@@ -438,6 +438,7 @@ ul li {
 }
 .price__container-title {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
@@ -446,6 +447,14 @@ ul li {
   text-align: center;
   margin-top: 50px;
   font-size: 30px;
+  text-wrap: wrap;
+}
+.price__container-title a {
+  color: #f6e6ef;
+  background-color: hsl(327, 88%, 77%);
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 10px;
 }
 .price__container-price {
   display: flex;
@@ -1032,6 +1041,8 @@ ul li {
 .footer__nav {
   display: flex;
   align-items: center;
+  margin-left: -30px;
+  margin-top: -50px;
 }
 .footer__nav ul {
   display: flex;
@@ -1077,7 +1088,7 @@ ul li {
 }
 
 .footer__contacts-tels {
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 .footer__contacts-tels a {
   color: #1b2326;
@@ -1093,4 +1104,5 @@ ul li {
   width: 80%;
   flex-wrap: wrap;
   text-align: center;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */
