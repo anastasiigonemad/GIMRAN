@@ -1,0 +1,51 @@
+.faq {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 100px;
+}
+
+.faq__title {
+
+    h2 {
+        margin-bottom: 50px;
+        font-size: 1.875em;
+        width: 60%;
+    }
+}
+
+.faq__container {
+    display: flex;
+    width: 100%;
+    justify-content: center;    
+}
+
+.accordion-header {
+    font-family: 'Montserrat-bold', sans-serif;
+}
+
+.accordion-button {
+    background-color: $light-pink;
+    color: $dark;
+    border: none;
+
+    &:not(.collapsed) {
+        color: $light-pink;
+        background-color: $button;
+        box-shadow: none;
+
+        &::after {
+            background-image: url(/assets/image/laser.png);
+        }
+    }
+
+    &::after {
+        background-image: url(/assets/image/laser1.png);
+    }
+}
+.bold {
+    font-family: 'Montserrat-bold', sans-serif;
+}
+.accordion-collapse {
+    color: $dark;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="435.668" id="Filter" width="435.469" x="312.735" y="251.54">
+<feGaussianBlur in="SourceGraphic" result="Blur" stdDeviation="27.0555"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="285.668" id="Filter_2" width="285.361" x="575.336" y="77.2035">
+<feGaussianBlur in="SourceGraphic" result="Blur" stdDeviation="27.0555"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="335.452" id="Filter_3" width="335.726" x="677.357" y="513.614">
+<feGaussianBlur in="SourceGraphic" result="Blur" stdDeviation="27.0555"/>
+</filter>
+</defs>
+<path d="M0 0L1024 0L1024 1024L0 1024L0 0Z" fill="#f8f4f7" fill-opacity="0" fill-rule="nonzero" opacity="1" stroke="none"/>
+<g id="Слой-1" vectornator:layerName="Слой 1">
+<path d="M530.373 469.568C530.581 469.238 530.637 469.359 530.456 469.178" fill="none" filter="url(#Filter)" opacity="0.48338" stroke="#e979b9" stroke-linecap="round" stroke-linejoin="round" stroke-width="300" vectornator:blur="54.1111" vectornator:layerName="Кривая 1"/>
+<path d="M717.975 220.232L718.058 219.842" fill="none" filter="url(#Filter_2)" opacity="0.149696" stroke="#e979b9" stroke-linecap="round" stroke-linejoin="round" stroke-width="150" vectornator:blur="54.1111" vectornator:layerName="Кривая 2"/>
+<path d="M844.996 681.253L845.444 681.427" fill="none" filter="url(#Filter_3)" opacity="0.149696" stroke="#e979b9" stroke-linecap="round" stroke-linejoin="round" stroke-width="200" vectornator:blur="54.1111" vectornator:layerName="Кривая 3"/>
+</g>
+</svg>

@@ -1,0 +1,35 @@
+.about__laser {
+    width: 80%;
+    &-title {
+        display: flex;
+        
+        h2 {
+            font-size: 1.875em;
+            margin-bottom: 50px;
+        }
+    }
+
+    &-container {
+        display: flex;
+        flex-direction: column;
+
+        &-description {
+            display: flex;
+            
+            p {
+                width: 100%;
+                margin-bottom: 50px;
+            }
+        }
+
+        &-content {
+            display: flex;
+            width: 80%;
+            gap: 10px;
+            margin-bottom: 100px;
+            img {
+                width: 40%;
+            }
+        }
+    }
+}

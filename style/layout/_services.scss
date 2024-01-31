@@ -1,0 +1,84 @@
+.services {
+    width: 80%;
+    margin-bottom: 100px;
+
+    &__title {
+        h2 {
+            font-size: 25px;
+        }
+        p {
+            margin-top: -25px;
+            font-size: 65px;
+            color: $button;
+            font-weight: 800;
+            font-family: 'Corinthia', sans-serif;
+            margin-bottom: 50px;
+        }
+    }
+    &__container { 
+        &-fillin {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+
+            &-description { 
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                width: 100%;
+            
+                p {
+                    width: 100%;
+                    padding-top: 20px;
+                 }
+            }
+
+            &-btn {
+                display: flex;
+                justify-content: center;
+                
+                a {
+                    margin-top: 30px;
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    border: 3px solid $button;
+                    padding: 15px;
+                    color: $button;
+                    border-radius: 5px;
+                    text-transform: uppercase;
+                    margin-bottom: 20px;
+                }
+            
+                a:hover {
+                    background-color: $sopink;
+                    transition: 0.5s ease-in;
+                    border: $sopink;
+                    color: $light-pink;
+                }
+            }
+
+            &-item {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                    
+                img {
+                    max-width: 80%;
+                    height: auto;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .services__container-fillin {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+

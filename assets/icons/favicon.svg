@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs/>
+<path d="M0 0L1024 0L1024 1024L0 1024L0 0Z" fill="#f8f4f7" fill-opacity="0" fill-rule="nonzero" opacity="1" stroke="none"/>
+<g id="Слой-1" vectornator:layerName="Слой 1">
+<path d="M780.8 555.8L780.8 522.9L564.5 522.9L564.5 555.8C598.8 555.1 625.4 558.6 625.4 599.9C625.4 662.2 570.1 695.1 513.4 695.1C404.2 695.1 374.8 590.8 374.8 499.8C374.8 394.8 412.6 294 533.7 294C605.8 294 663.2 326.9 674.4 401.8L708.7 401.8L708.7 261.1L674.4 261.1C675.1 271.6 670.2 280 659 280C650.6 280 634.5 272.3 626.8 269.5C590.4 255.5 551.2 248.5 512 248.5C362.9 248.5 263.5 346.5 263.5 496.3C263.5 634.2 353.1 740.6 495.2 740.6C560.3 740.6 604.4 720.3 649.9 674.8L666 728L720.6 728L720.6 617.4C720.6 604.1 718.5 577.5 729 567.7C740.9 556.5 765.4 555.8 780.8 555.8Z" fill="#f8f4f7" opacity="1" stroke="none" vectornator:layerName="Текст 1"/>
+</g>
+</svg>

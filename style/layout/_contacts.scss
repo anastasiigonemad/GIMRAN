@@ -1,0 +1,41 @@
+.contacts {
+    width: 80%;
+    margin-bottom: 100px;
+
+    h2 {
+        font-size: 1.875em;
+        margin-bottom: 50px;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-around;
+        &-address {
+           &-1 {
+            width: 300px;
+           }
+        }
+
+        &-map {
+            width: 100%;
+
+            iframe {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .contacts__container {
+        display: flex;
+        flex-direction: column;
+    }
+    .contacts__container-map {
+       width: 100%;
+
+       iframe {
+        width: 100%;
+       }
+    }
+}

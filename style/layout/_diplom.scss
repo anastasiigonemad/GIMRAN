@@ -1,0 +1,26 @@
+.diplom {
+    width: 90%;
+    margin-bottom: 100px;
+    background-color: $light-pink;
+
+    &__title {
+
+        h2 {
+            padding-left: 5%;
+            padding-top: 2%;
+            font-size: 1.875em;
+        }
+    }
+}
+
+.diplom-item {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 20px;
+
+    img {
+        border-radius: 10px;
+        width: 20%;
+    }
+}
