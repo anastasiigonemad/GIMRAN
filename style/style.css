@@ -1075,16 +1075,15 @@ ul li {
 
 .footer__contacts-socmedia {
   display: flex;
-  justify-content: center;
   align-items: center;
-  width: 200px;
-  gap: 50px;
+  flex-direction: column;
+  width: 10%;
 }
 .footer__contacts-socmedia a {
   padding-bottom: 50px;
 }
 .footer__contacts-socmedia a img {
-  width: 50%;
+  width: 100%;
 }
 
 .footer__contacts-tels {
