@@ -9,6 +9,8 @@
 }
 
 .footer__icon {
+    display: flex;
+    align-items: center;
     width: 300px;
     height: 200px;
 
@@ -20,12 +22,19 @@
 
 .footer__nav {
     display: flex;
+    align-items: center;
+    
     ul {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
         padding-bottom: 20px;
         
         li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             padding: 20px;
             text-align: center;
 
@@ -52,7 +61,8 @@
 .footer__contacts-socmedia {
     display: flex;
     justify-content: center;
-    width: 300px;
+    align-items: center;
+    width: 15%;
     gap: 50px;
 
     a {
