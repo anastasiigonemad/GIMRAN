@@ -9,7 +9,6 @@
 
     &-title {
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-bottom: 20px;
@@ -18,14 +17,6 @@
             text-align: center;
             margin-top: 50px;
             font-size: 30px;
-            text-wrap: wrap;
-        }
-        a {
-            color: $light-pink;
-            background-color: $button;
-            padding: 15px;
-            border-radius: 10px;
-            margin-top: 10px;
         }
     }
 
