@@ -441,11 +441,21 @@ ul li {
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+  flex-direction: column;
 }
 .price__container-title h2 {
   text-align: center;
   margin-top: 50px;
   font-size: 30px;
+  text-wrap: wrap;
+}
+.price__container-title a {
+  color: #f6e6ef;
+  background-color: hsl(327, 88%, 77%);
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+  text-transform: uppercase;
 }
 .price__container-price {
   display: flex;
