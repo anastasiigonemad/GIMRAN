@@ -233,7 +233,6 @@
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
             </div>
             
             <div class="carousel-inner studio__carousel-inner">
@@ -347,43 +346,55 @@
           <div class="results__title">
             <h2>Результаты</h2>
           </div>
-          <div class="results__button">
-            <button class="results__button-prev">&#8592;</button>
-            <button class="results__button-next">&#8594;</button>
-          </div>
-          <div class="results__carousel">
+
+          <div id="carouselExampleIndicators" class="carousel slide results__carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
             
-            <div class="results__carousel-inner">
+            <div class="carousel-inner results__carousel-inner">
               
-              <div class="results__carousel-inner-item">
+              <div class="carousel-item active results__carousel-inner-item">
                 <div class="results__carousel-inner-item-1"></div>
               </div>
               
-              <div class="results__carousel-inner-item">
+              <div class="carousel-item results__carousel-inner-item">
                 <div class="results__carousel-inner-item-2"></div>
               </div>
-             
-              <div class="results__carousel-inner-item">
+
+              <div class="carousel-item results__carousel-inner-item">
                 <div class="results__carousel-inner-item-3"></div>
               </div>
-              
-              <div class="results__carousel-inner-item">
+
+              <div class="carousel-item results__carousel-inner-item">
                 <div class="results__carousel-inner-item-4"></div>
               </div>
-              
-              <div class="results__carousel-inner-item">
+
+              <div class="carousel-item results__carousel-inner-item">
                 <div class="results__carousel-inner-item-5"></div>
               </div>
-              
-              <div class="results__carousel-inner-item">
+
+              <div class="carousel-item results__carousel-inner-item">
                 <div class="results__carousel-inner-item-6"></div>
               </div>
               
-              <div class="results__carousel-inner-item">
-                <div class="results__carousel-inner-item-7"></div>
-              </div>
-              
             </div>
+            
+            <button class="carousel-control-prev results__carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            
+            <button class="carousel-control-next results__carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+
           </div>
         </section>
 

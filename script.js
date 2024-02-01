@@ -35,34 +35,34 @@
 //CAROUSEL RESULTS
 //================================
 
-let currentIndexResults = 0;
-const carouselItemResults = document.querySelectorAll('.results__carousel-inner-item');
+// let currentIndexResults = 0;
+// const carouselItemResults = document.querySelectorAll('.results__carousel-inner-item');
 
-function goToSlideResults (index) {
-    if (index < 0) {
-        index = carouselItemResults.length - 1;
-    } else if (index >= carouselItemResults.length) {
-        index = 0;
-    }
-    currentIndexResults = index;
-    document.querySelector('.results__carousel-inner').style.transform = `translateX(-${currentIndexResults * 100}%)`;
-}
+// function goToSlideResults (index) {
+//     if (index < 0) {
+//         index = carouselItemResults.length - 1;
+//     } else if (index >= carouselItemResults.length) {
+//         index = 0;
+//     }
+//     currentIndexResults = index;
+//     document.querySelector('.results__carousel-inner').style.transform = `translateX(-${currentIndexResults * 100}%)`;
+// }
 
-function goToNextSlideResults () {
-    goToSlideResults (currentIndexResults + 1);
-}
+// function goToNextSlideResults () {
+//     goToSlideResults (currentIndexResults + 1);
+// }
 
-function goToPrevSlideResults () {
-    goToSlideResults (currentIndexResults - 1);
-}
+// function goToPrevSlideResults () {
+//     goToSlideResults (currentIndexResults - 1);
+// }
 
 
 
-const nextButtonResults = document.querySelector('.results__button-next');
-const prevButtonResults = document.querySelector ('.results__button-prev');
+// const nextButtonResults = document.querySelector('.results__button-next');
+// const prevButtonResults = document.querySelector ('.results__button-prev');
 
-prevButtonResults.addEventListener('click', goToPrevSlideResults);
-nextButtonResults.addEventListener('click', goToNextSlideResults);
+// prevButtonResults.addEventListener('click', goToPrevSlideResults);
+// nextButtonResults.addEventListener('click', goToNextSlideResults);
 
 
 //================================
