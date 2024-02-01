@@ -91,6 +91,12 @@ function sliderPluggin(activeslide = 0) {
   sliderPluggin(0);
 
 
+  const myCarouselElement = document.querySelector('.results__carousel')
+
+const carousel = new bootstrap.Carousel(myCarouselElement, {
+  touch: true
+})
+
 
 
 
