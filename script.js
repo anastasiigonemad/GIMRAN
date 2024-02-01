@@ -1,32 +1,32 @@
-//carousel interier
-let currentIndex = 0;
-const carouselItem = document.querySelectorAll('.studio__carousel-inner-item');
+// //carousel interier
+// let currentIndex = 0;
+// const carouselItem = document.querySelectorAll('.studio__carousel-inner-item');
 
-function goToSlide (index) {
-    if (index < 0) {
-        index = carouselItem.length - 1;
-    } else if (index >= carouselItem.length) {
-        index = 0;
-    }
-    currentIndex = index;
-    document.querySelector('.studio__carousel-inner').style.transform = `translateX(-${currentIndex * 100}%)`;
-}
+// function goToSlide (index) {
+//     if (index < 0) {
+//         index = carouselItem.length - 1;
+//     } else if (index >= carouselItem.length) {
+//         index = 0;
+//     }
+//     currentIndex = index;
+//     document.querySelector('.studio__carousel-inner').style.transform = `translateX(-${currentIndex * 100}%)`;
+// }
 
-function goToNextSlide () {
-    goToSlide (currentIndex + 1);
-}
+// function goToNextSlide () {
+//     goToSlide (currentIndex + 1);
+// }
 
-function goToPrevSlide () {
-    goToSlide (currentIndex - 1);
-}
+// function goToPrevSlide () {
+//     goToSlide (currentIndex - 1);
+// }
 
 
 
-const nextButton = document.querySelector('.studio__button-next');
-const prevButton = document.querySelector ('.studio__button-prev');
+// const nextButton = document.querySelector('.studio__button-next');
+// const prevButton = document.querySelector ('.studio__button-prev');
 
-prevButton.addEventListener('click', goToPrevSlide());
-nextButton.addEventListener('click', goToNextSlide());
+// prevButton.addEventListener('click', goToPrevSlide());
+// nextButton.addEventListener('click', goToNextSlide());
 // end code
 
 
