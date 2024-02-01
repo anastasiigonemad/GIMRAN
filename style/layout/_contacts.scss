@@ -26,7 +26,13 @@
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
+    .contacts__title {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
     .contacts__container {
         display: flex;
         flex-direction: column;

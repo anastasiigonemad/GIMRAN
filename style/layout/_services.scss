@@ -81,4 +81,21 @@
     }
 }
 
+@media screen and (max-width: 800px) {
+
+    .services__title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .services__container-fillin-description {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: -50px;
+    }
+}
+
 

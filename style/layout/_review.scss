@@ -48,6 +48,11 @@
   }
 
   @media screen and (max-width: 800px) {
+    .review__title {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
     .review__slide {
         height: 60vh;
     }

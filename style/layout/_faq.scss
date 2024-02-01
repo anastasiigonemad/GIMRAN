@@ -49,3 +49,11 @@
 .accordion-collapse {
     color: $dark;
 }
+
+@media screen and (max-width: 800px) {
+    .faq__title {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}

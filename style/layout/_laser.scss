@@ -41,14 +41,29 @@
 
             &-1 {
                 font-size: 18px;
-                color: $sopink;
-                font-family: 'Montserrat-bold', sans-serif;
             }
 
             &-2 {
                 font-size: 25px;
                 font-family: 'Montserrat-bold', sans-serif;
+                color: $gray;
             }
         }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .laser__title {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .laser__container-description {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 500px;
+        padding: 15px;
     }
 }
