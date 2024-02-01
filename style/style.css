@@ -751,16 +751,23 @@ ul li {
   .masters__title {
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
   }
   .masters__container {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
+    text-align: justify;
     padding: 0;
   }
+  .masters__container-name {
+    text-align: center;
+  }
   .masters__container-description {
-    padding: 15px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
     width: 100%;
   }
 }
