@@ -75,7 +75,9 @@
                         border-bottom: 1px solid $button;
                         padding-bottom: 20px;
                         text-wrap: wrap;
-                        text-align: center;
+                        text-align: left;
+                        padding-left: 10px;
+                        padding-right: 10px;
                     }
                 }
 

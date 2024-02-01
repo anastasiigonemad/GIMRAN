@@ -389,6 +389,7 @@ ul li {
 .services__container-fillin-description p {
   width: 100%;
   padding-top: 20px;
+  text-align: left;
 }
 .services__container-fillin-btn {
   display: flex;
@@ -440,7 +441,7 @@ ul li {
   .services__container-fillin-description {
     display: flex;
     justify-content: center;
-    text-align: center;
+    text-align: justify;
     margin-top: -50px;
   }
 }
@@ -514,7 +515,9 @@ ul li {
   border-bottom: 1px solid hsl(327, 88%, 77%);
   padding-bottom: 20px;
   text-wrap: wrap;
-  text-align: center;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .price__container-price-top-1-price, .price__container-price-top-2-price, .price__container-price-top-3-price, .price__container-price-top-4-price, .price__container-price-top-5-price, .price__container-price-master-1-price, .price__container-price-master-2-price, .price__container-price-master-3-price, .price__container-price-master-4-price, .price__container-price-master-5-price {
   display: flex;
@@ -742,6 +745,7 @@ ul li {
   display: flex;
   flex-direction: column;
   width: 50%;
+  text-align: left;
 }
 .masters__container-description p {
   font-size: 12px;
@@ -758,17 +762,15 @@ ul li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: justify;
-    padding: 0;
-  }
-  .masters__container-name {
     text-align: center;
+    padding: 0;
   }
   .masters__container-description {
     padding-top: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
     width: 100%;
+    text-align: left;
   }
 }
 .about__laser {
@@ -789,6 +791,7 @@ ul li {
   display: flex;
 }
 .about__laser-container-description p {
+  text-align: left;
   width: 100%;
   margin-bottom: 50px;
 }
@@ -881,10 +884,10 @@ ul li {
   }
   .laser__container-description {
     display: flex;
-    justify-content: center;
-    text-align: center;
+    text-align: left;
     width: 500px;
-    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 .results {
