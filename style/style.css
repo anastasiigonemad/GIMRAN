@@ -80,6 +80,7 @@ ul li {
   src: url("../assets/fonts/FoglihtenNo06_076.otf");
 }
 .burger__logo {
+  position: absolute;
   top: -1.5em;
   left: 2.5em;
   z-index: 6;
