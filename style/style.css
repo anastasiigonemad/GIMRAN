@@ -178,7 +178,7 @@ ul li {
 @media screen and (max-width: 550px) {
   .burger__logo {
     position: fixed;
-    top: -1em;
+    top: -5em;
     left: 0.5em;
     z-index: 6;
   }
