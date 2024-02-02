@@ -1,7 +1,7 @@
 .burger__logo {
     position: fixed;
-    top: -45px;
-    left: 40px;
+    top: -2.8125em;
+    left: 2.5em;
     z-index: 6;
 
     img {
@@ -11,28 +11,28 @@
 
 .burger__menu + .burger__label {
     position: fixed;
-    top: 45px;
-    right: 60px;
-    height: 20px;
-    width: 20px; 
+    top: 2.8125em;
+    right: 3.75em;
+    height: 1.25em;
+    width: 1.25em; 
     z-index: 5;
     
     .burger__span{
       position: absolute;
       width: 100%;
-      height: 2px;
+      height: 0.125em;
       top: 50%;
-      margin-top: -1px;
+      margin-top: -0.0625em;
       left: 0;
       display: block;
       background: $dark;
       transition: .5s;
     }
     .burger__span-1 {
-      top: 4px; 
+      top: 0.25em; 
     }
     .burger__span-3 {
-      top: 16px; 
+      top: 1em; 
     }      
   }
 
@@ -61,7 +61,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100px;
+    height: 6.25em;
     z-index: 3;
     transition: .5s;
     transition-delay: .5s;
@@ -78,7 +78,7 @@
           text-transform: uppercase;
           color: $dark;
           display: block;
-          padding: 20px;
+          padding: 1.25em;
           text-align: left;
         }
       }
