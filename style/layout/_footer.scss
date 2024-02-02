@@ -21,8 +21,7 @@
 .footer__nav {
     display: flex;
     ul {
-        display: flex;
-        flex-direction: column;
+        
         padding-bottom: 20px;
         
         li {
@@ -58,7 +57,7 @@
     a {
         padding-bottom: 50px;
         img {
-            width: 100%;
+            width: 50px;
         }
     }
 }

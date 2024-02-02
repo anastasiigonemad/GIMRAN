@@ -1143,8 +1143,6 @@ ul li {
   display: flex;
 }
 .footer__nav ul {
-  display: flex;
-  flex-direction: column;
   padding-bottom: 20px;
 }
 .footer__nav ul li {
@@ -1176,7 +1174,7 @@ ul li {
   padding-bottom: 50px;
 }
 .footer__contacts-socmedia a img {
-  width: 100%;
+  width: 50px;
 }
 
 .footer__contacts-tels {
