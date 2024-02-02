@@ -99,6 +99,15 @@ const carousel = new bootstrap.Carousel(myCarouselElement, {
 
 
 
+//================================
+//BURGER MENU 
+//================================
+
+document.querySelector('.burger__menu').addEventListener('click', function() {
+  document.querySelector('.burger__nav').classList.toggle('open');
+})
+
+
 
 
 
