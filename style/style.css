@@ -98,7 +98,7 @@ ul li {
 }
 
 .burger__menu + .burger__label {
-  position: absolute;
+  position: fixed;
   top: 2.8125em;
   right: 3.75em;
   height: 1.25em;
@@ -166,12 +166,12 @@ ul li {
   text-transform: uppercase;
   color: #1b2326;
   display: block;
-  padding: 1.25em;
+  padding: 0.5em;
   text-align: left;
 }
 
 .burger__menu:checked ~ .burger__nav {
-  height: 100%;
+  height: 80vh;
   transition-delay: 0s;
 }
 .burger__menu:checked ~ .burger__nav > .burger__items > .burger__item {
@@ -180,7 +180,7 @@ ul li {
 }
 
 .burger__item-6 img, .burger__item-7 img, .burger__item-8 img {
-  width: 20%;
+  width: 10%;
 }
 
 .about {
