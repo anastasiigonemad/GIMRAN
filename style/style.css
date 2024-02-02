@@ -1194,4 +1194,15 @@ ul li {
   width: 80%;
   flex-wrap: wrap;
   text-align: center;
+}
+
+@media (hover: hover) {
+  .footer__nav a, .footer__contacts-tels a {
+    color: #FF1493;
+  }
+}
+@media (hover: none) {
+  .footer__nav a, .footer__contacts-tels a {
+    color: #FF1493;
+  }
 }/*# sourceMappingURL=style.css.map */
