@@ -79,22 +79,12 @@ ul li {
   font-family: "Fog";
   src: url("../assets/fonts/FoglihtenNo06_076.otf");
 }
-.burger__title {
+.burger__logo {
   position: fixed;
-  top: 40px;
-  left: 25px;
   z-index: 6;
-  font-size: 16px;
-  font-family: "Montserrat-bold", sans-serif;
-  text-transform: uppercase;
-  display: flex;
-  flex-direction: column;
-}
-.burger__title > .burger__title-1 {
-  text-transform: none;
-  opacity: 0.5;
-  font-size: 10px;
-  font-family: "Montserrat", sans-serif;
+  left: 15px;
+  top: -20px;
+  width: 150px;
 }
 
 .burger__menu + .burger__label {
@@ -166,12 +156,12 @@ ul li {
   text-transform: uppercase;
   color: #1b2326;
   display: block;
-  padding: 0.5em;
+  padding: 1.3em;
   text-align: left;
 }
 
 .burger__menu:checked ~ .burger__nav {
-  height: 80vh;
+  height: 100vh;
   transition-delay: 0s;
 }
 .burger__menu:checked ~ .burger__nav > .burger__items > .burger__item {
