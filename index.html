@@ -12,53 +12,30 @@
 </head>
 <body>
     <header class="header wrapper">
-      <div class="header__icon">
-        <img src="assets/icons/icon-dark.svg" alt="label icon">
+      <div class="burger__logo">
+        <img src="assets/image/icon-dark.svg" alt="logo gimran laser">
       </div>
-      <nav class="header__nav header__nav-1">
-        <ul>
-          <li>
-             <a target="_blank" href="https://drive.google.com/drive/folders/1372hGP086BWV1sfi6zj4MPxKBqak-3NK?usp=drive_link">Цены</a>
-          </li>
-          <li>
-            <a href="#review">Отзывы</a>
-          </li>
-          <li>
-            <a href="#contacts">Контакты</a>
-          </li>
-        </ul>
+
+      <input class="burger__menu" id="burger" type="checkbox" />
+
+      <label class="burger__label" for="burger">
+          <span class="burger__span-1 burger__span"></span>
+          <span class="burger__span-2 burger__span"></span>
+          <span class="burger__span-3 burger__span"></span>
+      </label>
+
+      <nav class="burger__nav">    
+        <ul class="burger__items">
+          <li class="burger__item burger__item-1"><a class="burger__link" href="#">Цены</a></li>
+          <li class="burger__item burger__item-2"><a class="burger__link" href="#">Студия</a></li>
+          <li class="burger__item burger__item-3"><a class="burger__link" href="#">Оборудование</a></li>
+          <li class="burger__item burger__item-4"><a class="burger__link" href="#">Вопросы-ответы</a></li>
+          <li class="burger__item burger__item-5"><a class="burger__link" href="#">Контакты</a></li>
+          <li class="burger__item burger__item-6"><a class="burger__link" href="https://www.instagram.com/gimran_lazer?igsh=MWQ2NnpnOGtqa2ZtMQ"><img src="assets/icons/instagram.svg" alt="logo instagram"></a></li>
+          <li class="burger__item burger__item-7"><a class="burger__link" href="https://wa.me/79586243670"><img src="assets/icons/whatsapp.svg" alt="logo instagram"></a></li>
+          <li class="burger__item burger__item-8"><a class="burger__link" href="https://t.me/gimran_g"><img src="assets/icons/telegram.svg" alt="logo instagram"></a></li>
+        </ul>  
       </nav>
-        <div class="header__contacts">
-          <div class="header__contacts-socmedia">
-            <a class="header__contacts-item" href="https://www.instagram.com/gimran_lazer?igsh=MWQ2NnpnOGtqa2ZtMQ" target="_blank">
-              <img src="assets/icons/instagram.svg" alt="instagram">
-            </a>
-            <a class="header__contacts-item" href="https://t.me/gimran_g" target="_blank">
-              <img src="assets/icons/telegram.svg" alt="telegram">
-            </a>
-            <a class="header__contacts-item" href="https://wa.me/79586243670" target="_blank">
-              <img src="assets/icons/whatsapp.svg" alt="WhatsApp">
-            </a>
-            </div>
-          </div>
-          <div class="header__contacts">
-            <div class="header__contacts-tels">
-              <a href="tel:+79586243670">+7 958 624 36 70</a>
-            </div>
-          </div>
-          <div class="header__dropdown">
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Menu
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" target="_blank" href="https://drive.google.com/drive/folders/1372hGP086BWV1sfi6zj4MPxKBqak-3NK?usp=drive_link">Цены</a></li>
-                <li><a class="dropdown-item" href="#review">Отзывы</a></li>
-                <li><a class="dropdown-item" href="#contacts">Контакты</a></li>
-                <li><a class="dropdown-item" href="#">Онлайн-запись</a></li>
-              </ul>
-            </div>
-          </div>
     </header>
     <main>
         <section class="about wrapper">
@@ -101,7 +78,7 @@
             </div>
           </div>
         </section>
-        <section class="price wrapper">
+        <section id="price" class="price wrapper">
           <div class="price__container">
             <div class="price__container-title">
               <h2>Цены на три первых посещения</h2>
@@ -219,7 +196,7 @@
           </div>
         </section>
 
-        <section class="studio wrapper">
+        <section id="studio" class="studio wrapper">
           <div class="studio__title">
             <h2>Наша студия</h2>
             <p>Ежедневно с 10:00 - 22:00</p>
@@ -275,7 +252,7 @@
           </div>
         </section>
         
-        <section class="masters wrapper">
+        <section id="masters" class="masters wrapper">
           <div class="masters__title">
             <h2>Наши мастера</h2>
           </div>
@@ -319,7 +296,7 @@
           </div>
         </section>
 
-        <section class="laser wrapper">
+        <section id="laser" class="laser wrapper">
           <div class="laser__title">
             <h2>Современное оборудование</h2>
           </div>
@@ -342,7 +319,7 @@
           </div>
         </section>
 
-        <section class="results wrapper">
+        <section id="results" class="results wrapper">
           <div class="results__title">
             <h2>Результаты</h2>
           </div>
@@ -398,7 +375,7 @@
           </div>
         </section>
 
-        <section class="diplom wrapper">
+        <section id="diplom" class="diplom wrapper">
           <div class="diplom__title">
             <h2>Сертификаты</h2>
           </div>
@@ -445,7 +422,7 @@
           </div>
         </section>
         
-        <section class="faq wrapper">
+        <section id="faq" class="faq wrapper">
           
           <div class="faq__title">
             <h2>Часто задаваемые вопросы</h2>
