@@ -1194,4 +1194,43 @@ ul li {
   width: 80%;
   flex-wrap: wrap;
   text-align: center;
+}
+
+.nav__studio {
+  margin-top: 120px;
+  margin-left: 30px;
+}
+.nav__studio .nav__studio-link-active {
+  color: hsl(327, 88%, 77%);
+  padding-right: 10px;
+}
+.nav__studio .nav__studio-span {
+  padding-right: 10px;
+}
+
+.studio__gallery {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.studio__gallery img {
+  width: 70%;
+}
+.studio__gallery .studio__gallery-img-title {
+  width: 70%;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.contacts__new-info {
+  margin: 50px;
+}
+
+.faq-new {
+  margin-top: 50px;
+  width: 80%;
+  margin-bottom: 50px;
 }/*# sourceMappingURL=style.css.map */
