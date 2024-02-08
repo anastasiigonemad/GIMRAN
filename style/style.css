@@ -1369,6 +1369,7 @@ ul li {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  margin-top: 30px;
   width: 100%;
 }
 .pricelist-all-title-zones h2 {
