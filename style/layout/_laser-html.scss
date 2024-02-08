@@ -1,0 +1,63 @@
+.laser__new {
+    margin: 50px;
+}
+
+.laser__new-main-image {
+    width: 100%;
+    margin-bottom: 50px;
+    img {
+        width: 100%;
+        border-radius: 15px;
+    }
+}
+
+.laser__new-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+    img {
+        width: 100%
+    }
+}
+
+.laser__new-image-container-1, .laser__new-image-container-2, .laser__new-image-container-3, .laser__new-image-container-4, .laser__new-image-container-5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .laser__new-image-container-img {
+        width: 50%;
+        
+        img {
+            width: 60%;
+            
+        }
+    }
+
+    .laser__new-image-container-text {
+        width: 50%;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .laser__new-image-container-1, .laser__new-image-container-2, .laser__new-image-container-3, .laser__new-image-container-4, .laser__new-image-container-5 {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .laser__new-image-container-img {
+            width: 50%;
+            
+            img {
+                width: 100%;
+            }
+        }
+    
+        .laser__new-image-container-text {
+            width: 70%;
+        }
+    }    
+}
