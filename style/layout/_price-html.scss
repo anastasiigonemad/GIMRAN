@@ -1,0 +1,125 @@
+.pricelist-topmaster {
+    background: rgb(246,140,200);
+    background: linear-gradient(0deg, rgba(246,140,200,1) 0%, rgba(255,255,255,1) 100%, rgba(244,222,234,0.7676579925650557) 244%);
+    margin-bottom: 50px;
+}
+
+.pricelist-topmaster-title {
+    text-align: center;
+    font-size: 40px;
+    text-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.pricelist-topmaster-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .pricelist-topmaster-item-1 {
+        width: 50%;
+    }
+}
+
+.pricelist-master {
+    background: rgb(246,140,200);
+    background: linear-gradient(180deg, rgba(246,140,200,1) 0%, rgba(255,255,255,1) 100%, rgba(244,222,234,0.7676579925650557) 244%);
+}
+
+.pricelist-master-title {
+    text-align: center;
+    font-size: 40px;
+    text-wrap: wrap;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+.pricelist-master-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .pricelist-master-item-1 {
+        width: 30%;
+    }
+
+    .pricelist-master-item-btn-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 10%;
+    }
+
+    .pricelist-master-item-btn-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 15%;
+    }
+}
+
+.pricelist-all {
+    background: rgb(246,140,200);
+    background: linear-gradient(0deg, rgba(246,140,200,1) 0%, rgba(255,255,255,1) 100%, rgba(244,222,234,0.7676579925650557) 244%);
+    padding-bottom: 50px;
+}
+
+.pricelist-all-title {
+    text-align: center;
+    font-size: 40px;
+    text-wrap: wrap;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.pricelist-all-title-zones {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+
+    h2 {
+        text-align: center;
+        border-bottom: 1px solid $dark;
+        padding-bottom: 10px;
+        width: 50%;
+    }
+} 
+
+.pricelist-all-item {
+    display: flex;
+    justify-content: space-evenly;
+
+    .pricelist-master-item-1 {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    
+
+    .pricelist-master-item {
+        display: block;
+        text-align: left;
+        margin: 50px;
+    
+        .pricelist-master-item-1 {
+            width: 100%;
+        }
+    
+        .pricelist-master-item-btn-1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: left;
+            width: 100%;
+        }
+    
+        .pricelist-master-item-btn-2 {
+            width: 100%;
+        }
+    }
+}
