@@ -962,6 +962,10 @@ ul li {
 .diplom-item img {
   border-radius: 10px;
   width: 20%;
+  transition: 1s;
+}
+.diplom-item img:hover {
+  transform: scale(3);
 }
 
 @media screen and (max-width: 800px) {

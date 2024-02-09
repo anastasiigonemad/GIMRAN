@@ -22,6 +22,11 @@
     img {
         border-radius: 10px;
         width: 20%;
+        transition: 1s;
+    }
+
+    img:hover {
+        transform: scale(3);
     }
 }
 
