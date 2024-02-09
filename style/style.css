@@ -144,7 +144,7 @@ ul li {
 }
 .burger__menu ~ .burger__nav > .burger__items {
   position: absolute;
-  top: 15%;
+  top: 20%;
   left: 5%;
 }
 .burger__menu ~ .burger__nav > .burger__items > .burger__item {
@@ -156,7 +156,7 @@ ul li {
   text-transform: uppercase;
   color: #1b2326;
   display: block;
-  padding: 20px;
+  padding: 15px;
   text-align: left;
 }
 
@@ -169,8 +169,15 @@ ul li {
   transition-delay: 0.1s;
 }
 
+.burger-flex-items {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
 .burger__item-6 img, .burger__item-7 img, .burger__item-8 img {
-  width: 10%;
+  width: 30%;
 }
 
 .about {
