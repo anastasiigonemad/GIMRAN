@@ -171,13 +171,14 @@ ul li {
 
 .burger-flex-items {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 20px;
   margin-left: 20px;
+  gap: 50px;
 }
 
 .burger__item-6 img, .burger__item-7 img, .burger__item-8 img {
-  width: 30%;
+  width: 40px;
 }
 
 .about {
