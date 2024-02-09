@@ -317,7 +317,7 @@ ul li {
   width: 100%;
 }
 .services__container-fillin-item img {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
   -o-object-fit: contain;
      object-fit: contain;
