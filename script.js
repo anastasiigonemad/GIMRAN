@@ -163,13 +163,9 @@ function displayBigImg () {
   zoom.addEventListener('click', function() {
     zoom.style.display = 'none';
   });
-  
+
   img.style.display = 'none';
   zoom.style.display = 'block';
 };
 
 document.querySelector('.diplom-img').addEventListener('click', displayBigImg);
-
-
-
-

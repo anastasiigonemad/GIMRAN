@@ -6,8 +6,10 @@
     margin-top: 100px;
     padding: 100px;
     margin-bottom: 100px;
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 10%; 
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: auto;
@@ -68,8 +70,32 @@
         
         img {
             border-radius: 50%;
-            width: 100%;
+            width: 300px;
             height: auto;
+        }
+    }
+
+    &-description {
+        width: 100%;
+        padding: 30px;
+        p {
+            font-size: 8px;
+        }
+    }
+}
+@media screen and (max-width:800px) {
+    .about__container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .about__container-item {
+        display: none;
+    }
+
+    .about__container-description {
+        width: 100%;
+        p {
+            font-size: 8px;
         }
     }
 }
