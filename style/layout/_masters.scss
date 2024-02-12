@@ -2,6 +2,7 @@
     background-color: $light-pink;
     width: 80%;
     margin-bottom: 100px;
+    
     &__title {
         
         h2 {
@@ -67,5 +68,29 @@
         padding-right: 50px;
         width: 100%;
         text-align: left;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .masters__title {
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: -20px;
+        }
+    }
+
+    .masters__container-content {
+        
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    .masters__container-description {
+
+        p {
+            font-size: 0.6em;
+        }
     }
 }

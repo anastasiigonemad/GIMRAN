@@ -99,4 +99,32 @@
     }
 }
 
+@media screen and (max-width: 450px) {
+    .services__title {
+        h2 {
+            font-size: 1.5em;
+        }
+
+        p {
+            margin-left: 150px;
+            margin-top: -10px;
+            font-size: 2.5em;
+        }
+    }
+
+    .services__container-fillin-description {
+        
+        p {
+            font-size: 0.6em;
+        }
+    }
+
+    .services__container-fillin-btn {
+        margin-bottom: -30px;
+        a {
+            font-size: 0.7em;
+        }
+    }
+}
+
 

@@ -60,6 +60,19 @@
         img:nth-child(3) {
             width: 100%;
         }
-        
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .about__laser-title {
+        h2 {
+            font-size: 1.5em;
+        }
+    }
+
+    .about__laser-container-description {
+        p {
+            font-size: 0.6em;
+        }
     }
 }

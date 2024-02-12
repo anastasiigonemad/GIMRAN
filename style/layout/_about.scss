@@ -1,11 +1,15 @@
 .about {
+    margin-bottom: 100px;
     width: 80%;
+    background-color: $light-pink;
+    border-radius: 100px;
 }
 
 .about__container {
     margin-top: 100px;
-    padding: 100px;
-    margin-bottom: 100px;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 10%; 
@@ -13,8 +17,6 @@
     align-items: center;
     width: 100%;
     height: auto;
-    background-color: #f6e6ef;
-    border-radius: 100px;
 
     &-title {
         h1 {
@@ -77,6 +79,8 @@
 
     &-description {
         width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
         padding: 30px;
         p {
             font-size: 8px;
@@ -100,12 +104,31 @@
     }
 }
 
-@media screen and (max-width: 400px) {
-    .about__container-title {
+@media screen and (max-width: 450px) {
+    
+    .about__container {
+        margin-top: 100px;
         display: flex;
         flex-direction: column;
-       h1 {
-        font-size: 1.1em;
-       }
+        justify-content: center;
+        align-items: center;
+    
+        &-title {
+            h1 {
+                font-size: 1.2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            p {
+                font-size: 0.875em;
+            }
+
+            &-btn {
+                margin-top: 30px;
+            }
+        }
     }
 }

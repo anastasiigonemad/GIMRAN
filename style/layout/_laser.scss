@@ -67,3 +67,27 @@
         padding-right: 30px;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .laser__title {
+        h2 {
+            margin-top: 20px;
+            font-size: 1.5em;
+        }
+    }
+
+    .laser__container-description {
+
+        .laser__container-description-1 {
+            font-size: 0.875em;
+        }
+
+        .laser__container-description-2 {
+            font-size: 1.2em;
+        }
+
+        p {
+            font-size: 0.6em;
+        }
+    }
+}

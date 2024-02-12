@@ -42,3 +42,18 @@
     text-align: center;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .review__title {
+    h2 {
+      font-size: 1.5em;
+      margin-bottom: -20px;
+    }
+  }
+
+  .review-container-text {
+    p {
+      font-size: 0.6em;
+    }
+  }
+}
