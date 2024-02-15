@@ -6,20 +6,21 @@
 
 .pricelist-topmaster-title {
     text-align: center;
-    font-size: 40px;
+    font-size: 25px;
     text-wrap: wrap;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 
-.pricelist-topmaster-item {
+.pricelist-item {
     display: flex;
     align-items: center;
     justify-content: space-around;
 
-    .pricelist-topmaster-item-1 {
+    img {
         width: 50%;
+        border-radius: 15px;
     }
 }
 
@@ -30,36 +31,11 @@
 
 .pricelist-master-title {
     text-align: center;
-    font-size: 40px;
+    font-size: 25px;
     text-wrap: wrap;
     margin-top: -50px;
     margin-bottom: 50px;
     padding-top: 50px;
-}
-.pricelist-master-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-    .pricelist-master-item-1 {
-        width: 30%;
-    }
-
-    .pricelist-master-item-btn-1 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        width: 10%;
-    }
-
-    .pricelist-master-item-btn-2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        width: 15%;
-    }
 }
 
 .pricelist-all {
@@ -70,7 +46,7 @@
 
 .pricelist-all-title {
     text-align: center;
-    font-size: 40px;
+    font-size: 25px;
     text-wrap: wrap;
     margin-bottom: 50px;
     padding-top: 50px;
@@ -90,39 +66,3 @@
         width: 50%;
     }
 } 
-
-.pricelist-all-item {
-    display: flex;
-    justify-content: space-evenly;
-
-    .pricelist-master-item-1 {
-        width: 100%;
-    }
-    
-}
-
-@media screen and (max-width: 600px) {
-    
-
-    .pricelist-master-item {
-        display: block;
-        text-align: left;
-        margin: 50px;
-    
-        .pricelist-master-item-1 {
-            width: 100%;
-        }
-    
-        .pricelist-master-item-btn-1 {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: left;
-            width: 100%;
-        }
-    
-        .pricelist-master-item-btn-2 {
-            width: 100%;
-        }
-    }
-}
