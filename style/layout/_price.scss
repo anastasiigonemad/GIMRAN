@@ -1,6 +1,5 @@
 .price {
     width: 80%;
-    background-color: $light-pink;
     margin-bottom: 100px;
 }
 .price__container {
@@ -32,100 +31,9 @@
     }
 
     .owl-carousel {
+        margin-top: 50px;
         width: 100%;
         
-        .owl-slide {
-            margin: 30px;
-        }
-        .owl-slide-price {
-            display: flex;
-            margin-top: 50px;
-            justify-content: space-around;
-        }
-
-        .owl-slide-price-top {
-           margin-top: -20px;
-        }
-
-        .owl-slide-price-master {
-            margin-top: -20px;
-        }
-        .owl-slide-price-master-1-1 {
-            font-size: 10px;
-        }
-
-        .owl-slide-price-image {
-            width: 100%;
-            position: fixed;
-            margin-top: -60px;
-            margin-left: 50px;
-        
-            img {
-                width: 300px;
-            }
-        }
-        
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .owl-slide-price {
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
-    }
-    .owl-slide-price-master {
-        padding-top: 20px;
-    }
-    .owl-slide-price-image {
-        left: 25%;
-        top: 40%;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    
-    .owl-slide-price-master {
-        padding-top: 20px;
-    }
-    .owl-slide-price-image {
-        left: 20%;
-        top: 45%;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    .owl-slide-price {
-        text-align: center;
-    }
-    .owl-slide-price-image {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .price__container-title {
-        h2 {
-            font-size: 1.5em;
-        }
-
-        a {
-            font-size: 0.875em;
-        }
-    }
-
-    .owl-slide {
-        h2 {
-            font-size: 1em;
-        }
-        p {
-            font-size: 0.875em;
-        }
-
-    }
-    
-    .owl-slide-price-master-1-1 {
-        margin-bottom: 2px;
     }
 }
 
