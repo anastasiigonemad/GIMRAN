@@ -182,7 +182,7 @@ ul li {
   height: auto;
 }
 .about__container-title h1 {
-  font-size: 1.5625em;
+  font-size: 1.875em;
   text-align: center;
 }
 .about__container-title h2 {
@@ -251,9 +251,10 @@ ul li {
   }
   .about__container-description {
     width: 100%;
+    word-wrap: normal;
   }
   .about__container-description p {
-    font-size: 8px;
+    font-size: 0.7em;
   }
 }
 @media screen and (max-width: 450px) {
@@ -268,7 +269,7 @@ ul li {
     font-size: 1.2em;
   }
   .about__container-title h2 {
-    font-size: 1.5em;
+    font-size: 1.875em;
   }
   .about__container-title p {
     font-size: 0.875em;
@@ -365,7 +366,7 @@ ul li {
 }
 @media screen and (max-width: 450px) {
   .services__title h2 {
-    font-size: 1.5em;
+    font-size: 1.875em;
   }
   .services__title p {
     margin-left: 150px;
@@ -373,13 +374,13 @@ ul li {
     font-size: 2.5em;
   }
   .services__container-fillin-description p {
-    font-size: 0.6em;
+    font-size: 0.875em;
   }
   .services__container-fillin-btn {
     margin-bottom: -30px;
   }
   .services__container-fillin-btn a {
-    font-size: 0.7em;
+    font-size: 0.875em;
   }
 }
 .price {
@@ -401,7 +402,7 @@ ul li {
 .price__container-title h2 {
   text-align: center;
   margin-top: 50px;
-  font-size: 30px;
+  font-size: 1.875em;
   text-wrap: wrap;
 }
 .price__container-title a {
@@ -428,11 +429,11 @@ ul li {
   flex-wrap: wrap;
 }
 .studio__title h2 {
-  font-size: 40px;
+  font-size: 1.875em;
 }
 .studio__title p {
   margin-top: 25px;
-  font-size: 20px;
+  font-size: 0.875em;
 }
 
 @media screen and (max-width: 800px) {
@@ -492,7 +493,7 @@ ul li {
   text-align: left;
 }
 .masters__container-description p {
-  font-size: 12px;
+  font-size: 0.875em;
 }
 
 @media screen and (max-width: 600px) {
@@ -519,7 +520,7 @@ ul li {
 }
 @media screen and (max-width: 450px) {
   .masters__title h2 {
-    font-size: 1.5em;
+    font-size: 1.875em;
     margin-bottom: -20px;
   }
   .masters__container-content img {
@@ -527,7 +528,7 @@ ul li {
     height: 100px;
   }
   .masters__container-description p {
-    font-size: 0.6em;
+    font-size: 0.875em;
   }
 }
 .about__laser {
@@ -589,10 +590,10 @@ ul li {
 }
 @media screen and (max-width: 450px) {
   .about__laser-title h2 {
-    font-size: 1.5em;
+    font-size: 1.875em;
   }
   .about__laser-container-description p {
-    font-size: 0.6em;
+    font-size: 0.875em;
   }
 }
 .laser {
@@ -633,10 +634,10 @@ ul li {
   padding-bottom: 3%;
 }
 .laser__container-description-1 {
-  font-size: 18px;
+  font-size: 0.875em;
 }
 .laser__container-description-2 {
-  font-size: 25px;
+  font-size: 1em;
   font-family: "Montserrat-bold", sans-serif;
   color: #585b56;
 }
@@ -658,7 +659,7 @@ ul li {
 @media screen and (max-width: 450px) {
   .laser__title h2 {
     margin-top: 20px;
-    font-size: 1.5em;
+    font-size: 1.875em;
   }
   .laser__container-description .laser__container-description-1 {
     font-size: 0.875em;
@@ -667,7 +668,7 @@ ul li {
     font-size: 1.2em;
   }
   .laser__container-description p {
-    font-size: 0.6em;
+    font-size: 0.875em;
   }
 }
 .results {
@@ -700,7 +701,7 @@ ul li {
     text-align: center;
   }
   .results__title h2 {
-    font-size: 1.5em;
+    font-size: 1.875em;
     margin-bottom: 20px;
   }
 }
@@ -740,7 +741,7 @@ ul li {
 @media screen and (max-width: 450px) {
   .diplom__title h2 {
     margin-top: 20px;
-    font-size: 1.5em;
+    font-size: 1.875em;
   }
 }
 .review {
@@ -787,11 +788,11 @@ ul li {
 }
 @media screen and (max-width: 450px) {
   .review__title h2 {
-    font-size: 1.5em;
+    font-size: 1.875em;
     margin-bottom: -20px;
   }
   .review-container-text p {
-    font-size: 0.6em;
+    font-size: 0.875em;
   }
 }
 .faq {
@@ -851,10 +852,10 @@ ul li {
 }
 @media screen and (max-width: 450px) {
   .faq__title h2 {
-    font-size: 1.5em;
+    font-size: 1.875em;
   }
   .accordion-item p {
-    font-size: 0.6em;
+    font-size: 0.875em;
   }
 }
 .contacts {
@@ -898,10 +899,10 @@ ul li {
 }
 @media screen and (max-width: 450px) {
   .contacts__title h2 {
-    font-size: 1.5em;
+    font-size: 1.875em;
   }
   .contacts__container-address p {
-    font-size: 0.7em;
+    font-size: 0.875em;
   }
 }
 .footer {
@@ -1094,7 +1095,7 @@ ul li {
   justify-content: space-around;
 }
 .pricelist-item img {
-  width: 50%;
+  width: 35%;
   border-radius: 15px;
 }
 
@@ -1138,4 +1139,10 @@ ul li {
   border-bottom: 1px solid #1b2326;
   padding-bottom: 10px;
   width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .pricelist-item img {
+    width: 80%;
+  }
 }/*# sourceMappingURL=style.css.map */
