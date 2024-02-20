@@ -1,48 +1,47 @@
 .diplom {
-    width: 90%;
-    margin-bottom: 100px;
-    background-color: $light-pink;
+  width: 90%;
+  margin-bottom: 100px;
+  background-color: $light-pink;
 
-    &__title {
-
-        h2 {
-            padding-left: 5%;
-            padding-top: 2%;
-            font-size: 1.875em;
-        }
+  &__title {
+    h2 {
+      padding-left: 5%;
+      padding-top: 2%;
+      font-size: 1.875em;
     }
+  }
 }
 
 .diplom-item {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 20px;
 
-    img {
-        border-radius: 10px;
-        width: 20%;
-        transition: 1s;
-    }
-
-    img:hover {
-        transform: scale(3);
-    }
+  img {
+    border-radius: 10px;
+    width: 20%;
+  }
 }
 
-@media screen and (max-width:800px) {
-    .diplom__title {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
+.diplom-active {
+  transition: 1s ease-in;
+  transform: scale(2.2);
+}
+
+@media screen and (max-width: 800px) {
+  .diplom__title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 450px) {
-    .diplom__title {
-        h2 {
-            margin-top: 20px;
-            font-size: 1.875em;
-        }
+  .diplom__title {
+    h2 {
+      margin-top: 20px;
+      font-size: 1.875em;
     }
+  }
 }

@@ -725,10 +725,11 @@ ul li {
 .diplom-item img {
   border-radius: 10px;
   width: 20%;
-  transition: 1s;
 }
-.diplom-item img:hover {
-  transform: scale(3);
+
+.diplom-active {
+  transition: 1s ease-in;
+  transform: scale(2.2);
 }
 
 @media screen and (max-width: 800px) {
